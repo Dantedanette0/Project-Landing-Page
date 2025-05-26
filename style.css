@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -120,6 +120,7 @@ img {
 /* 5) Thor section – no styles yet */
 .thor {
   display: flex;
+  
   flex-direction: column;
   background-color: #E5E7EB;
   justify-content: center;
@@ -128,10 +129,14 @@ img {
 }
 
 .thor .quoate{
+  font-family: 'Roboto';
+  color: #1F2937;
   font-size: 36px;
-  color: #1f291f;
   font-style: italic;
+  font-weight: 100;
   width: 1000px;
+
+  
 }
 
 .thor .quoatee{
