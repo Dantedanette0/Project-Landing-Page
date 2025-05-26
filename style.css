@@ -1,0 +1,137 @@
+/* 1) Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* 2) Header */
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1F2937;
+  padding: 50px;
+  gap: 100px;
+}
+
+.header .logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #F9FAF8;
+
+  
+}
+
+.header .links {
+  display: flex;
+  justify-content: space-between;
+  size: 18px;
+  color: #F9FAF8;
+  gap: 30px;
+}
+
+/* 3) Awesome “hero” section */
+.awesome {
+  display: flex;
+  background-color: #1F2937;
+  justify-content: space-around;
+  padding: 50px;
+  padding-left: 280px;
+  padding-right: 280px;
+  
+}
+
+.awesome .logo {
+    padding: 5px;
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+  width: 400px;
+
+
+}
+
+.awesome .awesomeButton {
+  font-size: 18px;
+  padding: 8px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 5px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: #1F2937;
+  color: #E5E7EB;
+  background-color: #3882F6;
+  font-weight: 800;
+}
+
+.awesome .bluh {
+  padding: 5px;
+  color: #E5E7EB;
+  width: 400px;
+  padding-left: 10px;
+
+}
+
+img {
+  height: 300px;
+  width: 700px;
+}
+
+/* 4) Info section – no styles yet */
+.info {
+  background-color: #F9FAF8;
+  display: flex;
+  flex-direction: column;
+}
+.info .infoHeader{
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info .cubes{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  
+}
+.info .cubes .infoImage{
+  width: 150px;
+  height: 150px;
+  border: 5px solid #3882F6 ;
+  border-radius: 10px ;
+
+}
+
+.info .cubes p{
+  width: 150px;
+}
+
+/* 5) Thor section – no styles yet */
+.thor {
+  /* empty for now */
+}
+
+/* 6) Sign section – no styles yet */
+.sign {
+  /* empty for now */
+}
+
+/* 7) Footer */
+.footer {
+  background-color: #002050;
+  color: #ccc;
+  text-align: center;
+  padding: 1rem 2rem;
+  font-size: 0.9rem;
+}
