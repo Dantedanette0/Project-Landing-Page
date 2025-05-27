@@ -188,9 +188,10 @@ img {
 }
 /* 7) Footer */
 .footer {
-  background-color: #002050;
-  color: #ccc;
-  text-align: center;
-  padding: 1rem 2rem;
-  font-size: 0.9rem;
+  display: flex;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  justify-content: center;
+  padding: 50px;
+  font-size: 18px;
 }
