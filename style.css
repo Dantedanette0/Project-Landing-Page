@@ -133,7 +133,7 @@ img {
   color: #1F2937;
   font-size: 36px;
   font-style: italic;
-  font-weight: 100;
+  font-weight: 300;
   width: 1000px;
 
   
@@ -147,9 +147,45 @@ img {
 
 /* 6) Sign section – no styles yet */
 .sign {
-  /* empty for now */
+  display: flex;
+  background-color: #3882F6;
+  justify-content: space-around;
+  margin: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 30px;
+  border-radius: 10px;
 }
 
+.sign .sign-header{
+  
+  color: #F9FAF8;
+  font-size: 36px;
+  font-weight: 900;
+}
+.sign .sign-left{
+  display: flex;
+  flex-direction: column;
+}
+.sign .sign-right{
+  display: flex;
+}
+.sign .sign-text{
+  color: #F9FAF8;
+  font-size: 18px;
+}
+
+.sign .sign-button{
+  background-color: #3882F6;
+  border: 2px solid #F9FAF8 ;
+  border-radius: 10px ;
+  color: #F9FAF8;
+  padding: 8px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 5px;
+  margin-left: 10px;
+}
 /* 7) Footer */
 .footer {
   background-color: #002050;
